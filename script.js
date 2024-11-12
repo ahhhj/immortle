@@ -12,7 +12,7 @@ let maxWords = 10;//I am so sorry I used a good naming convention for once
 let todaywords = [];
 //generate today's words
 //starting seed is days past 2000
-let seed = Math.floor(Date.now() / 86400000);
+let seed = Math.floor(Date.now() / 86400000 + 0.5);
 console.log(seed);
 for (let i = 0; i < maxWords; i++) {
 	let index = Math.floor(seededRandom(0, 2313));
