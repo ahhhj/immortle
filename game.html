@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Immortle</title><!--Perpetual-->
+	<script type="module" src="./words/answers.js"></script>
+	<script type="module" src="./words/guesses.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+</head>
+
+<body>
+	<h1 style="text-align: center;">IMMORTLE</h1>
+	<p style="text-align: center;">In this game, when you guess the word, it changes.</p>
+	<br>
+	<p id="status" style="text-align: center;">Fun fact: this is the status bar!</p>
+	<div id="board">
+		<div class="row">
+			<div id="0,0" class="tile"></div>
+			<div id="1,0" class="tile"></div>
+			<div id="2,0" class="tile"></div>
+			<div id="3,0" class="tile"></div>
+			<div id="4,0" class="tile"></div>
+		</div>
+		<div class="row">
+			<div id="0,1" class="tile"></div>
+			<div id="1,1" class="tile"></div>
+			<div id="2,1" class="tile"></div>
+			<div id="3,1" class="tile"></div>
+			<div id="4,1" class="tile"></div>
+		</div>
+		<div class="row">
+			<div id="0,2" class="tile"></div>
+			<div id="1,2" class="tile"></div>
+			<div id="2,2" class="tile"></div>
+			<div id="3,2" class="tile"></div>
+			<div id="4,2" class="tile"></div>
+		</div>
+		<div class="row">
+			<div id="0,3" class="tile"></div>
+			<div id="1,3" class="tile"></div>
+			<div id="2,3" class="tile"></div>
+			<div id="3,3" class="tile"></div>
+			<div id="4,3" class="tile"></div>
+		</div>
+		<div class="row">
+			<div id="0,4" class="tile"></div>
+			<div id="1,4" class="tile"></div>
+			<div id="2,4" class="tile"></div>
+			<div id="3,4" class="tile"></div>
+			<div id="4,4" class="tile"></div>
+		</div>
+		<div class="row">
+			<div id="0,5" class="tile"></div>
+			<div id="1,5" class="tile"></div>
+			<div id="2,5" class="tile"></div>
+			<div id="3,5" class="tile"></div>
+			<div id="4,5" class="tile"></div>
+		</div>
+	</div>
+	<div id="keyboard">
+		<div class="row">
+			<div id="Q" class="key">Q</div>
+			<div id="W" class="key">W</div>
+			<div id="E" class="key">E</div>
+			<div id="R" class="key">R</div>
+			<div id="T" class="key">T</div>
+			<div id="Y" class="key">Y</div>
+			<div id="U" class="key">U</div>
+			<div id="I" class="key">I</div>
+			<div id="O" class="key">O</div>
+			<div id="P" class="key">P</div>
+		</div>
+	</div>
+	<div id="keyboard">
+		<div class="row">
+			<div class="key dummy" style="width:16px;"></div>
+			<div id="A" class="key">A</div>
+			<div id="S" class="key">S</div>
+			<div id="D" class="key">D</div>
+			<div id="F" class="key">F</div>
+			<div id="G" class="key">G</div>
+			<div id="H" class="key">H</div>
+			<div id="J" class="key">J</div>
+			<div id="K" class="key">K</div>
+			<div id="L" class="key">L</div>
+			<div class="key dummy" style="width:16px;"></div>
+		</div>
+	</div>
+	<div id="keyboard">
+		<div class="row">
+			<div id="Enter" class="key" style="width:64px;">Enter</div>
+			<div id="Z" class="key">Z</div>
+			<div id="X" class="key">X</div>
+			<div id="C" class="key">C</div>
+			<div id="V" class="key">V</div>
+			<div id="B" class="key">B</div>
+			<div id="N" class="key">N</div>
+			<div id="M" class="key">M</div>
+			<div id="Backspace" class="key" style="width:64px;">Del</div>
+		</div>
+	</div>
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
