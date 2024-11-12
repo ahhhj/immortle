@@ -21,7 +21,7 @@ for (let i = 0; i < maxWords; i++) {
 let wordindex = 0;
 word = todaywords[wordindex];
 
-console.log(todaywords);
+//console.log(todaywords);
 
 //add more comments to the code!!
 //if you don't know how everything works you shouldn't be working on the code
@@ -35,9 +35,9 @@ document.addEventListener('mousedown', (e) => {
 	}
 	//indicates a win condition
 	if(e.target.id == "status"){
-		console.log("clicked status");
+		//console.log("clicked status");
 	if (wordindex > maxWords || guessnumber == 7) {
-		console.log("copied");
+		//console.log("copied");
 		//copy results to clipboard
 		navigator.clipboard.writeText(results);
 	}
